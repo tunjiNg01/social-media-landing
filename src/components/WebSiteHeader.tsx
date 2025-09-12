@@ -239,7 +239,7 @@ export default function WebSiteHeader(): React.ReactElement {
   );
 
   return (
-    <header className="fixed top-0 left-0 right-0 w-full bg-white/70 backdrop-blur-sm z-50">
+    <header className="fixed top-0 left-0 right-0 w-full bg-transparent backdrop-blur-sm z-50">
       <div
         ref={wrapperRef}
         className="max-w-7xl bg-white font-sans md:mt-4 rounded-md mx-auto px-4 sm:px-6 lg:px-8"
