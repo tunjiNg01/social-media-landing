@@ -13,19 +13,19 @@ const DEFAULT_GUIDES: Guide[] = [
     title:
       "How Often Should You Post on LinkedIn in 2025? Data From 2 Million+ Posts",
     href: "#",
-    image: "/file.svg",
+    image: "/icons/pic2.png",
   },
   {
     title:
       "How to Schedule Instagram Posts in 2025 : (3 Easy Methods + 5 Quick Tips)",
     href: "#",
-    image: "/window.svg",
+    image: "/icons/pic1.png",
   },
   {
     title:
       "What Is A Good Instagram Engagement Rate? Data from 27 Million+ Instagram Posts",
     href: "#",
-    image: "/globe.svg",
+    image: "/icons/pic3.png",
   },
 ];
 

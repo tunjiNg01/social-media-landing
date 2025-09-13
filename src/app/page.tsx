@@ -2,7 +2,9 @@
 import ChooseUs from "@/components/ChooseUs";
 import FaqSection from "@/components/FaqSection";
 import GuideSection from "@/components/GuideSection";
+import MediaSection from "@/components/MediaSection";
 import PricingSections from "@/components/PricingSections";
+import ProductSection from "@/components/ProductSection";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 
@@ -88,6 +90,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <MediaSection />
+      <ProductSection />
       <ChooseUs />
       <GuideSection />
       <PricingSections />
