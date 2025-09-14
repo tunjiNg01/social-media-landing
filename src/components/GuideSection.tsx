@@ -33,7 +33,7 @@ export default function GuideSection({
   guides = DEFAULT_GUIDES,
 }: Readonly<{ guides?: Guide[] }>) {
   return (
-    <section className="py-16 font-sans px-6">
+    <section id="guides" className="py-16 font-sans px-6">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-start justify-between mb-8 gap-6">
           <div className="max-w-2xl">

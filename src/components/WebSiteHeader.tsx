@@ -5,10 +5,10 @@ import Image from "next/image";
 const navItems = [
   { title: "Home", href: "#" },
   { title: "Features", href: "#" },
-  { title: "Pricing", href: "#" },
-  { title: "FAQs", href: "#" },
-  { title: "Blog", href: "#" },
-  { title: "Contact", href: "#" },
+  { title: "Pricing", href: "#pricing" },
+  { title: "FAQs", href: "#faq" },
+  { title: "Blog", href: "#guides" },
+  // { title: "Contact", href: "#" },
 ];
 
 const megaMenuGroups = [
@@ -249,9 +249,14 @@ export default function WebSiteHeader(): React.ReactElement {
           <div className="flex items-center gap-6">
             <a
               href="#"
-              className="flex items-center px-3 py-2 bg-sky-100 text-sky-700 rounded-md font-semibold shadow-sm"
+              className="flex items-center  rounded-md font-semibold "
             >
-              Logo
+              <Image
+                src="/icons/sprotous_logo.png"
+                alt="Icons"
+                width={100}
+                height={100}
+              />
             </a>
           </div>
           {/* center */}
@@ -260,14 +265,14 @@ export default function WebSiteHeader(): React.ReactElement {
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-4">
               <a
-                href="#"
+                href="https://app.sproutos.io/auth/login"
                 className="text-sm text-gray-800 hover:underline"
                 onClick={() => setMegaOpen(false)}
               >
                 Sign In
               </a>
               <a
-                href="#"
+                href="https://app.sproutos.io/auth/signup"
                 className="inline-flex items-center px-4 py-2 bg-sky-500 text-white rounded-full text-sm font-semibold hover:bg-sky-600"
                 onClick={() => setMegaOpen(false)}
               >
@@ -307,14 +312,14 @@ export default function WebSiteHeader(): React.ReactElement {
           <nav className="flex flex-col gap-3">{mobileLinks}</nav>
           <div className="mt-2 pt-2 border-t border-gray-100 flex flex-col gap-2">
             <a
-              href="#"
+              href="https://app.sproutos.io/auth/login"
               className="block text-sm text-gray-800 px-2 py-2 rounded hover:bg-gray-100"
               onClick={() => setOpen(false)}
             >
               Sign In
             </a>
             <a
-              href="#"
+              href="https://app.sproutos.io/auth/signup"
               className="block text-sm text-white bg-sky-500 px-3 py-2 rounded-full text-center font-semibold hover:bg-sky-600"
               onClick={() => setOpen(false)}
             >

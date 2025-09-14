@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 export default function Footer(): React.ReactElement {
   return (
@@ -9,8 +10,13 @@ export default function Footer(): React.ReactElement {
           {/* Left: logo + short description */}
           <div className="md:col-span-1">
             <div className="mb-6">
-              <div className="inline-block bg-sky-100 text-sky-600 px-4 py-2 rounded-md font-semibold">
-                Logo
+              <div className="inline-block  rounded-md font-semibold">
+                <Image
+                  src="/icons/sprotous_logo.png"
+                  alt="Icons"
+                  width={100}
+                  height={100}
+                />
               </div>
             </div>
             <p className="text-slate-600 max-w-xs">
@@ -142,7 +148,7 @@ export default function Footer(): React.ReactElement {
             </div>
 
             <div>
-              <h5 className="text-sm text-slate-500 mb-4">Link</h5>
+              <h5 className="text-sm text-slate-500 mb-4">Other</h5>
               <ul className="space-y-3">
                 <li>
                   <a href="#" className="text-slate-700 hover:underline">

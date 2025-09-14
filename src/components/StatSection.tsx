@@ -9,7 +9,7 @@ export default function StatSection(): React.ReactElement {
           Drive more impact with your social media management tool, now.
         </h2>
         <p className="mt-3 text-slate-600">
-          Everything you need to build modern UI and great products.
+          Everything you need to build great content and grow your audience.
         </p>
       </div>
 

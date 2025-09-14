@@ -55,7 +55,7 @@ export default function FaqSection({
   }
 
   return (
-    <section className="py-16 font-sans px-4">
+    <section id="faq" className="py-16 font-sans px-4">
       <div className="max-w-3xl mx-auto text-center mb-8">
         <p className="text-sm text-sky-500 font-semibold uppercase">
           Have any questions?

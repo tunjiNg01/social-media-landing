@@ -43,7 +43,7 @@ const plans = [
 
 export default function PricingSections(): React.ReactElement {
   return (
-    <section className="py-20 container mx-auto font-sans px-4">
+    <section id="pricing" className="py-20 container mx-auto font-sans px-4">
       <div className="max-w-6xl mx-auto text-left mb-12">
         <p className="text-sm text-sky-500 font-semibold uppercase">Pricing</p>
         <h2 className="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900">
