@@ -33,35 +33,6 @@ const cards = [
   },
 ];
 
-function Icon() {
-  return (
-    <svg
-      width="28"
-      height="28"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden
-    >
-      <circle cx="12" cy="12" r="10" stroke="#bae6fd" strokeWidth="1.2" />
-      <path
-        d="M8 12c1.333-2 6-2 7 0"
-        stroke="#0ea5e9"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M12 8v.01"
-        stroke="#0ea5e9"
-        strokeWidth="1.6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
 export default function ChooseUs(): React.ReactElement {
   return (
     <section className="py-16 font-sans px-6">

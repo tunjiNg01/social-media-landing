@@ -56,9 +56,9 @@ export default function PricingSections(): React.ReactElement {
       </div>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
-        {plans.map((p, idx) => (
+        {plans.map((p, i) => (
           <div
-            key={p.name}
+            key={i}
             className={`relative bg-white rounded-2xl shadow-sm p-6 flex flex-col gap-6 transition-transform duration-200 ${
               p.popular ? "-mt-4 shadow-lg scale-100 md:scale-105" : ""
             }`}

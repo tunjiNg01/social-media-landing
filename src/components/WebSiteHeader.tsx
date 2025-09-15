@@ -39,9 +39,9 @@ const megaMenuGroups = [
       desc: "Turn data into insights that fuel growth.",
     },
     {
-      icon: undefined,
-      title: "Smart Scheduling",
-      desc: "",
+      icon: "/icons/person.png",
+      title: "Influencer Discovery",
+      desc: "Find and connect with the right influencers for your brand.",
     },
   ],
   [
@@ -265,14 +265,14 @@ export default function WebSiteHeader(): React.ReactElement {
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-4">
               <a
-                href="https://app.sproutos.io/auth/login"
+                href="https://sproutos.io/sproutos/auth/login"
                 className="text-sm text-gray-800 hover:underline"
                 onClick={() => setMegaOpen(false)}
               >
                 Sign In
               </a>
               <a
-                href="https://app.sproutos.io/auth/signup"
+                href="https://sproutos.io/sproutos/auth/signup"
                 className="inline-flex items-center px-4 py-2 bg-sky-500 text-white rounded-full text-sm font-semibold hover:bg-sky-600"
                 onClick={() => setMegaOpen(false)}
               >
@@ -312,14 +312,14 @@ export default function WebSiteHeader(): React.ReactElement {
           <nav className="flex flex-col gap-3">{mobileLinks}</nav>
           <div className="mt-2 pt-2 border-t border-gray-100 flex flex-col gap-2">
             <a
-              href="https://app.sproutos.io/auth/login"
+              href="https://sproutos.io/sproutos/auth/login"
               className="block text-sm text-gray-800 px-2 py-2 rounded hover:bg-gray-100"
               onClick={() => setOpen(false)}
             >
               Sign In
             </a>
             <a
-              href="https://app.sproutos.io/auth/signup"
+              href="https://sproutos.io/sproutos/auth/signup"
               className="block text-sm text-white bg-sky-500 px-3 py-2 rounded-full text-center font-semibold hover:bg-sky-600"
               onClick={() => setOpen(false)}
             >

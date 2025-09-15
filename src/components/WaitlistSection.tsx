@@ -4,7 +4,7 @@ import React from "react";
 
 export default function WaitlistSection(): React.ReactElement {
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 font-sans px-6">
       <div className="max-w-6xl mx-auto">
         <div
           className="relative rounded-2xl overflow-hidden p-10 sm:p-16 text-center"
@@ -54,7 +54,7 @@ export default function WaitlistSection(): React.ReactElement {
             </div>
 
             <div className="mt-5 flex items-center justify-center gap-3 text-sm text-slate-700">
-              <div className="flex -space-x-2">
+              {/* <div className="flex -space-x-2">
                 <img
                   src="/next.svg"
                   alt="avatar"
@@ -70,7 +70,7 @@ export default function WaitlistSection(): React.ReactElement {
                   alt="avatar"
                   className="h-8 w-8 rounded-full ring-2 ring-white"
                 />
-              </div>
+              </div> */}
               <div>Join 2,700+ users who have signed up</div>
             </div>
           </div>

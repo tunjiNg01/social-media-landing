@@ -98,37 +98,6 @@ const FEATURES: Feature[] = [
   },
 ];
 
-function BadgeIcon({
-  className = "",
-  color = "bg-sky-50 text-sky-500",
-}: {
-  className?: string;
-  color?: string;
-}) {
-  return (
-    <div
-      className={`inline-flex items-center justify-center h-12 w-12 rounded-full ${color} shadow-sm`}
-    >
-      <svg
-        className={`h-6 w-6`}
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden
-      >
-        <circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.12" />
-        <path
-          d="M8 12c1.333-2 6-2 7 0"
-          stroke="currentColor"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-  );
-}
-
 export default function ProductSection(): React.ReactElement {
   return (
     <section className="py-20 font-sans antialiased px-6">

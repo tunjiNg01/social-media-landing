@@ -15,35 +15,6 @@ const PLATFORMS: { id: string; label: string; icon: string }[] = [
   { id: "youtube", label: "YouTube", icon: "/icons/media10.png" },
 ];
 
-function Icon({ id }: { id: string }) {
-  // Simple neutral SVG placeholder per platform id.
-  // You can replace these with brand SVGs from /public later.
-  return (
-    <svg
-      className="h-6 w-6 text-slate-800"
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden
-    >
-      <rect
-        x="3"
-        y="3"
-        width="18"
-        height="18"
-        rx="2"
-        stroke="currentColor"
-        strokeWidth="0"
-        fill="currentColor"
-        fillOpacity="0.06"
-      />
-      <text x="12" y="16" textAnchor="middle" fontSize="10" fill="currentColor">
-        {id.charAt(0).toUpperCase()}
-      </text>
-    </svg>
-  );
-}
-
 export default function MediaSection(): React.ReactElement {
   return (
     <section className="py-12 px-4">
@@ -57,7 +28,7 @@ export default function MediaSection(): React.ReactElement {
 
           <div className="overflow-x-auto">
             <div className="flex items-center gap-6 justify-center py-3 min-w-[720px]">
-              {PLATFORMS.map((p, i) => (
+              {PLATFORMS.map((p) => (
                 <React.Fragment key={p.id}>
                   <div
                     aria-label={p.label}
