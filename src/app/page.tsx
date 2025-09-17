@@ -36,7 +36,7 @@ export default function Home() {
           <div className="relative z-10 font-sans flex flex-col items-center justify-center min-h-screen">
             <div className="flex gap-1 bg-sky-100 py-1 px-4 rounded-full items-center">
               <span className="text-sm text-gray-600 ">Trusted by</span>
-              <span className="text-gray-800">3,6000+</span>
+              <span className="text-gray-800">2,700+</span>
               <span className="text-sm text-gray-600 mr-2">Subscribers</span>
             </div>
             <h1 className="text-6xl hidden md:block text-gray-800 font-sans font-bold">

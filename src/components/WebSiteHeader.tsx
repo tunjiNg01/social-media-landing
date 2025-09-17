@@ -33,11 +33,7 @@ const megaMenuGroups = [
       title: "Influencer Marketing",
       desc: "Discover, collaborate, and manage influencers easily.",
     },
-    {
-      icon: "/icons/analytics.png",
-      title: "Influencer Marketing",
-      desc: "Turn data into insights that fuel growth.",
-    },
+
     {
       icon: "/icons/person.png",
       title: "Influencer Discovery",

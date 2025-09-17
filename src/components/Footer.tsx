@@ -27,29 +27,22 @@ export default function Footer(): React.ReactElement {
           {/* Link columns */}
           <div className="md:col-span-4 grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <h5 className="text-sm text-slate-500 mb-4">Product</h5>
+              <h5 className="text-sm text-slate-500 mb-4 font-semibold">
+                Product
+              </h5>
               <ul className="space-y-3">
                 <li>
-                  <a
-                    href="#"
-                    className="text-slate-700 hover:underline font-semibold"
-                  >
+                  <a href="#" className="text-slate-700 hover:underline ">
                     About
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="text-slate-700 hover:underline font-semibold"
-                  >
+                  <a href="#" className="text-slate-700 hover:underline ">
                     FAQ
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
-                  <a
-                    href="#"
-                    className="text-slate-700 hover:underline font-semibold"
-                  >
+                  <a href="#" className="text-slate-700 hover:underline ">
                     Solutions
                   </a>
                   <span className="text-xs bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full">
@@ -60,61 +53,42 @@ export default function Footer(): React.ReactElement {
             </div>
 
             <div>
-              <h5 className="text-sm text-slate-500 mb-4">Features</h5>
+              <h5 className="text-sm text-slate-500 font-semibold mb-4">
+                Features
+              </h5>
               <ul className="space-y-3">
                 <li>
-                  <a
-                    href="#"
-                    className="text-slate-700 font-semibold hover:underline"
-                  >
+                  <a href="#" className="text-slate-700  hover:underline">
                     Competition Monitoring
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="text-slate-700 font-semibold hover:underline"
-                  >
+                  <a href="#" className="text-slate-700 f hover:underline">
                     Influencer Marketing
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="text-slate-700 font-semibold hover:underline"
-                  >
+                  <a href="#" className="text-slate-700  hover:underline">
                     Analytics & Reporting
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="text-slate-700 font-semibold hover:underline"
-                  >
+                  <a href="#" className="text-slate-700 hover:underline">
                     Content Management
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="text-slate-700 font-semibold hover:underline"
-                  >
+                  <a href="#" className="text-slate-700  hover:underline">
                     UTM Tracking
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="text-slate-700 font-semibold hover:underline"
-                  >
+                  <a href="#" className="text-slate-700  hover:underline">
                     Bulk Import
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="text-slate-700 font-semibold hover:underline"
-                  >
+                  <a href="#" className="text-slate-700  hover:underline">
                     Campaign Management
                   </a>
                 </li>
@@ -122,7 +96,9 @@ export default function Footer(): React.ReactElement {
             </div>
 
             <div>
-              <h5 className="text-sm text-slate-500 mb-4">Resources</h5>
+              <h5 className="text-sm text-slate-500 font-semibold mb-4">
+                Resources
+              </h5>
               <ul className="space-y-3">
                 <li>
                   <a href="#" className="text-slate-700 hover:underline">

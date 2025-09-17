@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-
+import Image from "next/image";
 export default function WaitlistSection(): React.ReactElement {
   return (
     <section className="py-20 font-sans px-6">
@@ -18,7 +18,12 @@ export default function WaitlistSection(): React.ReactElement {
 
           <div className="relative z-10">
             <div className="inline-block bg-sky-100 text-sky-600 px-3 py-1 rounded-md text-sm mb-4">
-              Logo
+              <Image
+                src="/icons/sprotous_logo.png"
+                alt="Logo"
+                width={100}
+                height={24}
+              />
             </div>
             <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900">
               Be the First to experience the future of AI with Sproutos by
